@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  font-family: "Roboto", sans-serif;
+  color: #757575;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}
+--Estilos personales
+.fa {
+  color: #009688;
+}
+
+.cv-main{
+  padding: 15px;
+}
+
+.cv-main > section {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, .19);
+  margin-bottom: 20px;
+}
+
+#me > section:not(:first-child){
+  padding: 0 18px 18px;
+}
+
+.me-picture img {
+  width: 100%;
+  height: auto;
+}
+
+.me-skills {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#Asterisk {
+  margin: 18px;
+}
+
+.date {
+  color: #009688;
+}
+
+.current_date {
+  color: white;
+  font-weight: bold;
+  background-color: #009688;
+}
+
+#work_experience {
+  padding: 10px;
+}
+
+/*Desktop*/
+@media only screen and (min-width: 600px){
+* {
+  font-size: 12px;
+}
+
+#me {
+  font-size: 10px;
+}
+.cv-main {
+  display: flex;
+}
+#me {
+  width: 30%;
+}
+#work_experience {
+  width: 70%;
+}
+}
